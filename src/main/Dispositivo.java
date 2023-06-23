@@ -5,7 +5,7 @@ public class Dispositivo {
 	private int memoriaAlmacenamiento;
 	private Stirng procesador;
 	private String modelo;
-	private int añoDeFabricacion;
+	private int aÃ±oDeFabricacion;
 	private int precio;
 	private int cantidadStock;
 
@@ -69,16 +69,16 @@ public class Dispositivo {
 		this.modelo = modelo;
 	}
 
-	public int getAñoDeFabricacion() {
-		return this.añoDeFabricacion;
+	public int getAÃ±oDeFabricacion() {
+		return this.aÃ±oDeFabricacion;
 	}
 
 	/**
 	 * 
-	 * @param añoDeFabricacion
+	 * @param aï¿½oDeFabricacion
 	 */
-	public void setAñoDeFabricacion(int añoDeFabricacion) {
-		this.añoDeFabricacion = añoDeFabricacion;
+	public void setAÃ±oDeFabricacion(int aÃ±oDeFabricacion) {
+		this.aÃ±oDeFabricacion = aÃ±oDeFabricacion;
 	}
 
 	public int getPrecio() {
